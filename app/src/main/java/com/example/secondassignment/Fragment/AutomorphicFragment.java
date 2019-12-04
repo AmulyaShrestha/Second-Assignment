@@ -35,6 +35,7 @@ public class AutomorphicFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_automorphic, container, false);
 
         this.bindProperties(view);
+        this.configureListeners();
 
         return view;
     }
